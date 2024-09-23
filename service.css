@@ -1,0 +1,253 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+p {
+    font-family: "Roboto", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: "Oswald", sans-serif;
+}
+
+.header-section {
+    background-image: url(image/con-back.jpg);
+    background-size: cover;
+}
+
+.top-header .row {
+    display: grid;
+    grid-template-columns: 2fr 4fr 1fr;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.top-header .contact-colum a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.top-header i {
+    color: #fff;
+    margin-right: 16px;
+}
+
+.top-header .manu-colum {
+    text-align: right;
+}
+
+.contact-colum a:first-child {
+    margin-right: 20px;
+}
+
+.top-header .contact-colum {
+    text-align: right;
+}
+
+.text-content {
+    text-align: center;
+    color: #fff;
+    padding: 200px 0 80px 0;
+}
+/* Mobile Menu  */
+.header-section .row .manu-colum{
+    position: relative;
+}
+.header-section .row .manu-colum i{
+    margin-right: 0;
+    color: #fff;
+}
+#menu li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 10px;
+    display: block;
+}
+
+
+#menu li{
+    background: rgb(7, 6, 6);
+    list-style: none;
+    text-align: left;
+
+}
+#menu li.active a{
+    background: rgb(172, 8, 8);
+}
+#menu li a:hover{
+    background: rgb(172, 8, 8);
+    color: #fff;
+}
+#menu{
+    position: absolute;
+    
+    display: none;
+    right: 0;
+}
+#closebar{
+    display: none;
+}
+/* mobile  menu close */
+/* service card section */
+.heading {
+    text-align: center;
+}
+
+.service_card_section .heading img {
+    padding: 25px 0;
+}
+
+.service_card_section p {
+    font-size: 15px;
+    color: #807d7e;
+    font-weight: 300;
+    line-height: 19px;
+}
+
+.service_card_section .heading h2 {
+    font-size: 27px;
+    font-weight: 700;
+}
+
+.service_card_section .heading span {
+    color: #b31e22;
+}
+
+.service_card_section .service_card h2 {
+    padding: 18px 0;
+    font-size: 23px;
+    font-weight: 700;
+    font-family: "Raleway", system-ui;
+}
+
+.service_card_section .container {
+    padding: 100PX;
+}
+
+.service_card_section .row {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 48px;
+}
+
+/* servic card section is close */
+/* Factory directet section */
+
+
+.factory_direct_section .container_fac {
+    text-align: center;
+    position: relative;
+}
+.factory_direct_section .container_fac .head{
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.factory_direct_section .container_fac h2{
+    font-size: 31px;
+    color: #b31e22;
+}
+.factory_direct_section .container_fac h3{
+    font-size: 27px;
+    padding-top: 25px;
+}
+.factory_direct_section img {
+    width: 100%;
+    
+}
+
+/* start mail section */
+.mail-section {
+    background: black;
+}
+
+.mail-form {
+    display: flex;
+    align-items: center;
+    padding: 58px 55px;
+}
+
+.mail-section h2 {
+    color: #fff;
+    text-transform: uppercase;
+    margin-right: 23px;
+    font-weight: 500;
+    font-size: 23px;
+}
+
+.mail-section .mail-form input {
+    padding: 12px;
+    width: 265px;
+
+}
+
+.email {
+    margin: 0 18px;
+
+}
+
+#submit {
+    width: auto;
+    font-size: 14px;
+    font-family: "Raleway", system-ui !important;
+    font-weight: 500;
+    padding: 12px 30px;
+    background-color: #b31e22;
+    color: #fff;
+}
+
+/* end this section */
+/* start footer section */
+.footer-section {
+    padding: 65px;
+}
+
+.footer-section .icons {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.footer-section .footer-icons {
+    text-align: center;
+}
+
+.footer-section .footer-icons p {
+    padding-top: 70px;
+}
+
+.footer-section .footer-icons img {
+    margin-top: 25px;
+}
+
+.footer-manu {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 20px;
+    line-height: 35px;
+}
+
+.ul-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+/* <!-- footer bottom sesction --> */
+.bottom-section p {
+    background: #b31e22;
+    color: #fff;
+    text-align: center;
+    padding: 35px 0;
+    font-family: "Open Sans", system-ui;
+}
