@@ -1,0 +1,244 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+p {
+    font-family: "Roboto", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: "Oswald", sans-serif;
+}
+
+.header-section {
+    background-image: url(image/con-back.jpg);
+    background-size: cover;
+}
+
+.top-header .row {
+    display: grid;
+    grid-template-columns: 2fr 4fr 1fr;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.top-header a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.top-header i {
+    color: #fff;
+    margin-right: 16px;
+}
+
+.top-header .manu-colum {
+    text-align: right;
+}
+
+.contact-colum a:first-child {
+    margin-right: 20px;
+}
+
+.top-header .contact-colum {
+    text-align: right;
+}
+
+.text-content {
+    text-align: center;
+    color: #fff;
+    padding: 200px 0 80px 0;
+}
+/* Mobile Menu  */
+.header-section .row .manu-colum{
+    position: relative;
+}
+.header-section .row .manu-colum i{
+    margin-right: 0;
+    color: #fff;
+}
+#menu li a{
+    padding: 5px 10px;
+    text-decoration: none;
+    color: #fff;
+}
+#menu li{
+    padding-top: 10px;
+    background: rgb(7, 6, 6);
+    list-style: none;
+    text-align: left;
+
+}
+#menu li a:hover{
+    background: rgb(172, 8, 8);
+    color: #fff;
+    padding: 5px 10px;
+    display: block;
+}
+#menu{
+    position: absolute;
+    
+    display: none;
+    right: 0;
+}
+#closebar{
+    display: none;
+}
+/* mobile  menu close */
+/* portfolio ssection */
+.portfolio_section .container{
+    padding: 60px;
+}
+.portfolio_section ul{
+    display: flex;
+  justify-content: center;
+    list-style: none;
+    gap: 40px;
+    padding-bottom: 50px;
+    font-weight: 700;
+    font-size: 15px;
+}
+.portfolio_section li{
+    border-bottom: 4px solid transparent;
+    padding-bottom: 15px;
+}
+.portfolio_section li:hover{
+    color: #b31e22;
+    transition: all 0.5s;
+   border-color: red;
+   
+}
+.portfolio_section img{
+    width: 100%;
+    display: block;
+}
+.portfolio_section .port{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 28px;
+}
+.port_card{
+    position: relative;
+}
+.portfolio_section .text{
+position: absolute;
+bottom: 0;
+/* right: 0; */
+width: 100%;
+background: #b31e22;
+color: #fff;
+text-align: center;
+opacity: 0;
+transition: all 0.5s;
+
+}
+.portfolio_section .port_card:hover .text, .portfolio_section .port_card:hover #cam{
+    opacity: 1;
+  }
+
+.portfolio_section .port_card #cam{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: rgb(221, 163, 163);
+    top: 10%;
+    right: 10%;
+    opacity: 0;
+}
+
+
+/* start mail section */
+.mail-section {
+    background: black;
+}
+
+.mail-form {
+    display: flex;
+    align-items: center;
+    padding: 58px 55px;
+}
+
+.mail-section h2 {
+    color: #fff;
+    text-transform: uppercase;
+    margin-right: 23px;
+    font-weight: 500;
+    font-size: 23px;
+}
+
+.mail-section .mail-form input {
+    padding: 12px;
+    width: 265px;
+
+}
+
+.email {
+    margin: 0 18px;
+
+}
+
+#submit {
+    width: auto;
+    font-size: 14px;
+    font-family: "Raleway", system-ui !important;
+    font-weight: 500;
+    padding: 12px 30px;
+    background-color: #b31e22;
+    color: #fff;
+}
+
+/* end this section */
+/* start footer section */
+.footer-section {
+    padding: 65px;
+}
+
+.footer-section .icons {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.footer-section .footer-icons {
+    text-align: center;
+}
+
+.footer-section .footer-icons p {
+    padding-top: 70px;
+}
+
+.footer-section .footer-icons img {
+    margin-top: 25px;
+}
+
+.footer-manu {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 20px;
+    line-height: 35px;
+}
+
+.ul-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+/* <!-- footer bottom sesction --> */
+.bottom-section p {
+    background: #b31e22;
+    color: #fff;
+    text-align: center;
+    padding: 35px 0;
+    font-family: "Open Sans", system-ui;
+}
